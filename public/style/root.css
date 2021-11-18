@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    font-family: 'Courier New', monospace;
+    font-size: 16px;
+}
+
+span {
+    font-size: 20px;
+    padding: 0.75em 1.25em;
+    background: black;
+    border-radius: 0.25em;
+    color: white;
+    transition: 0.5s;
+}
+
+a, button {
+    background: white;
+    color: black;
+    cursor: pointer;
+    padding: 0.75em 1.25em;
+    border: 1px solid black;
+    border-radius: 0.25em;
+    transition: 0.25s;
+    text-decoration: none;
+}
+a:hover, button:hover {
+    background: lightgray;
+    border: 1px solid darkgray;
+    text-decoration: underline;
+}
+
+div {
+    display: flex;
+    width: 100%;
+    gap: 0.5em;
+}
+.vh100 { height: 100vh; }
+.flex-col { flex-direction: column; }
+.justify-center { justify-content: center; }
+.items-center { align-items: center; }
+.gap-2 { gap: 1em; }
+.self-start { align-self: flex-start; }
+.self-center { align-self: center; }
+.disabled { background: lightgray; }
+
+form {
+    width: 384px;
+}
+
+input {
+    padding: 0.5em;
+    border-radius: 0.25em;
+    border: 1px solid black;
+}
+
+.status-ok {
+    border-left: 0.25em solid lightgreen;
+    background: green;
+    border-radius: 0;
+}
+
+.status-error {
+    border-left: 0.25em solid crimson;
+    background: maroon;
+    border-radius: 0;
+}
